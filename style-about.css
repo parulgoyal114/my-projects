@@ -1,0 +1,343 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+body {
+    background-color: #faf1f1;
+}
+.travel {
+    display: flex;
+    font-size: 1.4rem;
+}
+.logo {
+    padding-left: 15px;
+    padding-top: 15px;
+    display: flex;
+    width: 97.5%;
+    color: red;
+}
+.logo h5 {
+    margin-left: 10px;
+    font-size: 1.4rem;
+}
+.logo2  {
+    /* margin-left: auto; */
+    padding-right: 25px;
+    display: block;
+    padding-top: 15px;
+    color: rgb(105, 103, 103);
+    font-size: 1.5rem;
+}
+.content {
+    background-image: url("london2.jpg");
+    background-size: cover;
+    height: 590px;
+}
+.text {
+    display: flex;
+    position: absolute;
+    top: 38%;
+    left: 50%;
+    transform: translateX(-50%);
+    /* gap: 20px; */
+    width: 628px;
+    height: 38px;
+    background-color: #000000;
+    color: #ffffff;
+}
+.text1 {
+    background-color: red;
+    padding-top: 10px;
+    padding-left: 10px;
+    width: 80px;
+}
+.text2 {
+    padding-top: 10px;
+    padding-left: 12px;
+    width: 80px;
+}
+.text3 {
+    padding-top: 10px;
+    padding-left: 12px;
+    width: 80px;
+}
+.tex:hover {
+    background-color: #9b9797;
+}
+.details {
+     position: absolute;
+    top: 43.2%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #000000;
+    background-color: white;
+    height: 219px;
+    width: 628px;
+    font-size: 1.30rem;
+    padding-top: 18px;
+    padding-left: 12px;
+}
+.label-row {
+    padding-top: 15px;
+    display: flex;
+    gap: 249px; 
+}
+.depart-input {
+    height: 45px;
+    width: 295px;
+    font-size: 1rem;
+}
+.arrive-input {
+    height: 45px;
+    width: 295px;
+    font-size: 1rem;
+}
+button {
+    margin-top: 16px;
+    height: 35px;
+    width: 180px;
+    border-radius: 0;
+    background-color: #616161;
+    color: #FFFFFF;
+    border: 1px solid #616161;
+}
+button:hover {
+    background-color: #9b9797;
+    border: 1px solid #9b9797;
+    color: #000000;
+}
+.places h3 {
+    margin-top: 20px;
+    margin-bottom: 13px;
+    margin-left: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #000000;
+    position: absolute;
+    left: 23.4%;
+    transform: translateX(-50%);
+   
+}
+
+.places p {
+    margin-bottom: 15px;
+    /* margin-left: 10px; */
+    margin-top: 50px;
+    position: absolute;
+    left: 22.5%;
+    transform: translateX(-50%);
+}
+.explore {
+    margin-top: 80px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: nowrap;
+    box-sizing: border-box;
+    height: 400px;
+    position: absolute;
+    left: 45%;
+    transform: translateX(-50%);
+}
+.left-image {
+    flex: 0 0 60% ;
+    position: relative;
+    height: 100%;
+    /* padding-left: 20px; */
+}
+.left-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+.right-images {
+    flex:  0 0 60%  ;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    height: 100%;
+}
+.label {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    /* background-color: rgba(0,0,0,0.1); */
+    color: white;
+    padding:  5px 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.image-item img {
+    /* display: block; */
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.image-item {
+    position: relative;
+    width: calc(50% - 5px);
+    height: calc(50% - 5px);
+    overflow: hidden;
+}
+.nature-info  {
+    margin-top: -60px;
+    position: absolute;
+    left: 28%;
+    transform: translateX(-50%);
+}
+.nature-info h4 {
+    margin-bottom: 15px;
+}
+.images {
+    margin-top: 580px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    /* flex-wrap: wrap; */
+}
+.nature-image, .image2 {
+    /* border: 1px solid #ccc; */
+    background: #fff;
+    width: 458px;
+}
+.image-text, .image2-text {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.image-text p, .image2-text p {
+    margin-top: 10px;
+}
+.two {
+    background-color: white;
+    border: 1px solid white;
+    color: #000000;
+    font-size: 1rem;
+    width: 111px;
+    height: 38px;
+}
+.two:hover {
+    background-color: #faf1f1;
+    border: 1px solid #faf1f1;
+}
+.msg-box {
+    margin-top: 20px;
+    position: absolute;
+    top: 220%;
+    left: 50%;
+    /* left: 30.5%; */
+    transform: translateX(-50%);
+    width: 950px;
+    padding: 20px;
+    color: rgb(216, 213, 213);
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.msg-box p {
+    margin-top: 10px;
+}
+.msg-box input {
+    display: inline;
+    width: 99%;
+    height: 40px;
+}
+.msg-box button {
+    background-color: rgb(206, 80, 80);
+    border: 1px slid rgb(206, 80, 80);
+    height: 38px;
+    width: 101px;
+}
+.msg-box button:hover {
+    background-color: #bfb0b0;
+    color: #000000;
+}
+.msg-box:hover {
+    background-color: #000000;
+    color: white;
+}
+.contact-info {
+    position: absolute;
+    top: 255%;
+    left: 24.5%;
+    transform: translateX(-50%);
+    
+}
+.contact-info h3 {
+    margin-top: 10px;
+    margin-bottom: 18px;
+}
+.contact-info p {
+    margin-bottom: 10px;
+    color: rgba(0, 0, 0, 0.7);
+}
+.input {
+    position: absolute;
+    top: 278%;
+    left: 24.5%;
+    transform: translateX(-10%);
+    /* width: 99%; */
+}
+.name-input {
+    width: 900px;
+    height: 56.1px;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+.Email-input {
+     width: 900px;
+    height: 56.1px;
+     margin-bottom: 15px;
+     padding: 10px;
+
+}
+.Message-input {
+    width: 900px;
+    height: 56.1px;
+    padding: 10px;
+}
+.input button {
+    background-color: #000000;
+    color: white;
+    padding: 10px;
+}
+.input button:hover {
+    background-color: #bfb0b0;
+    border: 1px solid #bfb0b0;
+    color: #000000;
+}
+.find-us {
+    position: absolute;
+    top: 315%;
+    left: 50%;
+    color: rgba(0, 0, 0, 0.7);
+}
+.find-us p {
+    margin-bottom: 20px;
+    font-size: 1rem;
+}
+.find-us i {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    position: relative;
+    top: 315%;
+    left: -15%;
+}
+.find-us i:hover {
+    color: #bfb0b0;
+}
+.last-text a {
+    color: rgba(0, 0, 0, 0.7);
+}
+.last-text {
+    margin-top: 20px;
+    font-family: 0.6rem;
+    position: absolute;
+    top: 100%;
+    left: -10%;
+}
+.last-text a:hover {
+    color: green;
+}
+
+
+    

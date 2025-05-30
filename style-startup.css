@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+.logo {
+    display: flex;
+}
+.logo p{
+    padding-top: 15px;
+    margin-left: 15px;
+    /* float: left; */
+    width: 69%;
+    height: 50px;
+}
+.logo span {
+    padding-top: 15px;
+    margin-right: 20px;
+    height: 50px;
+    /* float: right; */
+}
+.logo span:hover {
+    background-color: lightgrey;
+}
+.starting-section {
+    width: 100%;
+    height: 690px;
+    background-image: url("apple-laptop-review.jpg");
+    background-size: cover;
+    object-fit: cover;
+    color: white;
+}
+.starting-section h2 {
+    font-size: 3rem;
+    padding-top: 200px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    word-spacing: 5px;
+    font-weight: bolder;
+    
+}
+.starting-section span {
+    margin-top: 40px;
+    padding-left: 30px;
+    font-size: 1.5rem;
+    
+}
+.starting-section button {
+    display: block;
+    margin-top: 40px;
+    margin-left: 30px;
+    height: 56px;
+    width: 273px;
+    background-color: #fff;
+    font-size: 1rem;
+}
+.starting-section button:hover {
+    background-color: rgb(246, 241, 241);
+}
+.symbols {
+    padding-top: 230px;
+    padding-left: 40px;
+    font-size: 1.1rem;
+    color: rgb(211, 211, 211);
+}
+.symbols i:hover {
+    color: rgb(142, 138, 138);
+}
+.about-company h3 {
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+    font-size: 1.3rem;
+}
+.about-company p {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.features  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* gap: 20px; */
+    font-size: 2rem;
+    margin-top: 30px;
+}
+.features-logo i {
+    margin-left: 160px;
+    margin-bottom: 20px;
+}
+.features-name span {
+    margin-left: 130px;
+    color: rgb(74, 72, 72);
+}
+.features-name .special  {
+    margin-left: 110px;
+}
+.features-info {
+    margin-top: 20px;
+    font-size: 1rem;
+    /* width: 80%; */
+    margin-left: 30px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    color: rgb(74, 72, 72);
+}   
+.promo-section {
+    margin-top: 100px;
+    height: 505px;
+    background-color: rgb(244, 239, 239);
+    display: flex;
+    padding-top: 90px;
+    padding-left: 40px;
+}
+.promo-text {
+    width: 47.99999%;
+}
+.promo-text h3 {
+    margin-bottom: 30px;
+    font-size: 1.3rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+.promo-text button {
+    margin-top: 20px;
+    height: 43px;
+    width: 164px;
+    border-radius: 0;
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+}
+.promo-text button:hover {
+    color: black;
+    background-color: lightgray;
+    border: 1px solid lightgray;
+}
+.promo-image {
+    height: 249px;
+    width: 443px;
+   
+}
+.promo-image img {
+    border-radius: 10px;
+}
+.members {
+    /* display: flex; */
+}

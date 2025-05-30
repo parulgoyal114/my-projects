@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+.start {
+    /* padding-top: 250px; */
+    margin-left: 10px;
+    width: 98%;
+    height: 500px;
+    background-image: url("photographer.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 2rem;
+    color: rgb(234, 242, 249);
+} 
+.start-text {
+    border: 1px solid white;
+    height: 150px;
+    width: 260px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.text2 {
+  position: absolute;
+  top: 480px;
+  left: 50%;
+  transform: translateX(-50%);
+
+  display: flex;                /* 🔥 this puts the <p> tags in a row */
+  gap: 20px;                    /* space between items */
+  background-color: #f1f1f1;
+  border-radius: 4px;
+  font-size: 1.2rem;
+  padding: 8px 16px;
+  color: black;
+}
+.text2 p {
+  margin: 0;                    /* remove default paragraph spacing */
+}
+.text2 p:hover {
+  background-color: #ccc6c6;
+}
+.pictures img {
+   position: relative;
+   left: 50%;
+   transform: translateX(-50%);
+   padding-bottom: 12px;
+}
+.pictures {
+    padding-top: 35px;
+}
+.ending-content {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgb(250, 247, 247);
+  width: 68%;
+}
+.content-text h3 {
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 20px 20px 20px 15px;
+}
+.content-text p {
+  margin-top: 10px;
+  margin-left: 20px;
+  padding-right: 20px;
+}
+.content-text input {
+  width: 95%;
+  margin-left: 20px;
+  height: 30px;
+  margin-top: 15px;
+}
+button {
+  width: 99%;
+  margin-top: 20px;
+  height: 30px;
+  border-radius: 0;
+  color: white;
+  background-color: #616161;
+  border: #616161;
+}
+button:hover {
+  background-color: #e3d7d7;
+  color: #000000;
+}
+.link {
+  padding-top: 25px;
+}
+.link a {
+  color: #000000;
+}
+.link a:hover {
+  color: green;
+}
+

@@ -1,0 +1,90 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: serif;
+}
+body {
+    background-color: #fff;
+}
+.bar {
+    float: right;
+    padding: 15px 20px;
+    font-size: 36px;
+}
+.bar:hover {
+    background-color: #807f7f;
+}
+.page-content {
+    color: #595656;
+    text-align: center;
+    padding: 70px ;
+}
+.centered-text {
+    /* padding: 10px; */
+    /* display: inline-block; */
+    /* background-color: #807f7f; */
+    font-size: 15px;
+    margin: 18px;
+}
+.page-content button {
+    display: block;
+    text-align: center;
+    margin: 12px auto;
+    padding: 8px 16px;
+    color: #fff;
+    background-color: #595454;
+    border: 1px solid #000000;
+}
+.page-content button:hover {
+    color: #807f7f;
+    background-color: rgb(242, 243, 245);
+    border: 1px solid rgb(242, 247, 251);
+
+}
+.photos {
+    /* height: 1407px; */
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px 30px 100px 20px;
+}
+.row1 {
+     width: 31%;
+}
+.row2 {
+    display: table;
+    width: 31%;
+}
+.row3 {
+    display: block;
+    width: 31%;
+}
+img {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+.end-page {
+    height: 216px;
+    text-align: center;
+    background-color: #f6ecec;
+    padding-top: 40px;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    color: #3e3c3c;
+}
+.signs i:hover {
+    color: #a79e9e;
+}
+
+.text {
+    font-size: 1rem;
+    margin-top: 25px;
+    color: #3e3c3c;
+}
+.text a {
+    color: #3e3c3c;
+}
+.text a:hover {
+    color: rgb(6, 160, 6);
+
+}
