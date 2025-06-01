@@ -1,0 +1,334 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* filter: grayscale(75%); */
+}
+body {
+    height: 100%;
+}
+.container {
+      display: flex;
+      height: 100vh; /* Full height */
+      overflow: hidden;
+    }
+
+    .left {
+      width: 35%; /* Adjust as needed */
+      background: url('girl2.jpg') no-repeat center center/cover;
+      position: fixed;
+      height: 100%;
+      left: 0;
+      top: 0;
+    }
+
+    .right {
+      margin-left: 35%; /* Same as .left width */
+      width: 65%;
+      height: 100vh;
+      overflow-y: scroll;
+      padding: 2rem;
+    }
+    .bar span {
+        float: right;
+        font-size: 2rem;
+        color: grey;
+    }
+    .right h1 {
+        margin-top: 140px;
+        text-align: center;
+        font-size: 4rem;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .right p {
+        margin-top: 20px;
+        text-align: center;
+       
+    }
+    .right button {
+        text-align: center;
+        width: 17%;
+        height: 40px;
+        border-radius: 0;
+        margin-left: 42%;
+        margin-top: 25px;
+        border: grey;
+    }
+    .right button:hover {
+        background-color: lightgrey;
+    }
+    .right-folio h2 {
+        margin-top: 130px;
+        margin-left: 0;
+        font-size: 2rem;
+        color: grey;
+    }
+    hr {
+        margin-top: 20px;
+        width: 100%;
+        color: rgba(255, 253, 253,0.2);
+    }
+    .folio-images {
+        display: flex;
+        gap: 20px;
+        margin-top: 30px;
+    }
+    .row1 img {
+        margin-bottom: 10px;
+    }
+    .row2 img {
+        margin-bottom: 10px;
+    }
+    .about h2 {
+        font-size: 1.7rem;
+        color: gray;
+    }
+    .about p {
+        color: gray;
+        padding-left: 5px;
+        margin-right: 20px;
+        text-align: left;
+    }
+    .skills h2 {
+        color: gray;
+        font-size: 1.7rem;
+        margin-top: 30px;
+    }
+    .skills p {
+        text-align: left;
+        color: gray;
+        letter-spacing: 3px;
+        font-size: 1.1rem;
+    }
+    .bar-container {
+    width: 100%;
+    height: 30px;
+    background-color: #e0e0e0;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+.bar-fill {
+    height: 100%;
+    width: 0;
+    background-color: #757171;
+    text-align: center;
+    color: white;
+    padding-top: 7px;
+}   
+.work {
+    display: flex;
+    background-color: #616161;
+    color: white;
+    justify-content: space-evenly;
+    height: 122px;
+    padding-top: 25px;
+    font-size: 1.1rem;
+}
+.download button {
+    margin-left: 0;
+    width: 25%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.download i {
+    margin-right: 5px;
+}
+.testimonials h3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: gray;
+    font-size: 1.4rem;
+}
+.details {
+    display: flex;
+}
+.details img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.details p {
+    text-align: left;
+    margin-left: 15px;
+}
+.details span {
+    margin-left: 10px;
+}
+.det {
+    margin-top: 20px;
+    display: flex;
+}
+.det img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.det p {
+    text-align: left;
+    margin-left: 15px;
+}
+.det span {
+    margin-left: 10px;
+}
+.dets {
+    margin-top: 20px;
+    display: flex;
+}
+.dets img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.dets p {
+    text-align: left;
+    margin-left: 15px;
+}
+.dets span {
+    margin-left: 10px;
+}
+
+.price h3 {
+    margin-top: 50px;
+    font-size: 1.5rem;
+}
+.price-list {
+    text-align: center;
+    border: 1px solid rgb(216, 213, 213);
+     box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16);
+    width: 50%;
+    height:570px;
+    margin-top: 30px;
+}
+.price-list h2 {
+    padding-top: 40px;
+    background-color: #848181;
+    height: 100px;
+    text-align: center;
+    color: white;
+    font-size: 1.8rem;
+}
+.price-list p {
+    text-align: center;
+    border-bottom: 1px solid rgb(224, 212, 212);
+    height: 55px;
+    padding-top: 15px;
+    color: gray;
+}
+.price-list button {
+    width: 107px;
+    height: 46px;
+    margin-left: 0;
+}
+.price-but {
+    background-color: #f1f1f1;
+    width: 100%;
+    height: 16.33%;
+}
+.price-text {
+    display: flex;
+    gap: 20px;
+}
+.price-list2 {
+    text-align: center;
+    border: 1px solid rgb(216, 213, 213);
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16);
+    width: 50%;
+    height:570px;
+    margin-top: 30px;
+}
+.price-list2 h2 {
+    padding-top: 40px;
+    background-color: #000;
+    height: 100px;
+    text-align: center;
+    color: white;
+    font-size: 1.8rem;
+}
+.price-list2 p {
+    text-align: center;
+    border-bottom: 1px solid rgb(224, 212, 212);
+    height: 55px;
+    padding-top: 15px;
+    color: gray;
+}
+.price-list2 button {
+    width: 107px;
+    height: 46px;
+    margin-left: 0;
+}
+.price-but {
+    background-color: #f1f1f1;
+    width: 100%;
+    height: 16.33%;
+}
+.price-list button:hover {
+    background-color: #000;
+    color: white;
+}
+.price-list2 button:hover {
+    background-color: #000;
+    color: white;
+}
+.contact h2 {
+    margin-top: 70px;
+}
+.contact-list p {
+    text-align: left;
+    color: gray;
+    font-size: 1rem;
+}
+.contact-list i {
+    margin-right: 15px;
+    font-size: 1.5rem;
+}
+.location img {
+    width: 99%;
+    filter: grayscale(75%);
+    margin-top: 40px;
+}
+.contact-sec {
+    margin-top: 50px;
+}
+.contact-sec p {
+    text-align: left;
+    color: gray;
+    margin-bottom: 15px;
+}
+.contact-sec input {
+    margin-bottom: 15px;
+    height: 56px;
+    padding-left: 15px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    outline: none;
+}
+.contact-sec button {
+    margin-left: 0;
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+.contact-sec input:focus {
+    border: 1px solid #000;
+}
+.ending {
+    margin-top: 30px;
+    background-color: #f1f1f1;
+    height: 216px;
+    width: 105%;
+    margin-left: 0;
+    text-align: center;
+    margin: -30px;
+    padding-top: 50px;
+}
+.ending i {
+    font-size: 1.4rem;
+    color: gray;
+}
+.ending i:hover {
+    color: lightgrey;
+}
+.end {
+    color: gray;
+}
+.end a {
+    color: gray;
+}
