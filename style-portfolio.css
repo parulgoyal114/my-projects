@@ -9,12 +9,12 @@ body {
 }
 .container {
       display: flex;
-      height: 100vh; /* Full height */
+      height: 100vh; 
       overflow: hidden;
     }
 
     .left {
-      width: 35%; /* Adjust as needed */
+      width: 35%; 
       background: url('girl2.jpg') no-repeat center center/cover;
       position: fixed;
       height: 100%;
@@ -23,7 +23,7 @@ body {
     }
 
     .right {
-      margin-left: 35%; /* Same as .left width */
+      margin-left: 35%; 
       width: 65%;
       height: 100vh;
       overflow-y: scroll;

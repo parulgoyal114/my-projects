@@ -101,7 +101,7 @@ body {
     margin-top: 20px;
 }
 
-/* Hide radio buttons */
+
 input[type="radio"] {
   display: none;
 }
@@ -149,7 +149,7 @@ input[type="radio"] {
 }
 
 
-/* Hide both by default */
+
 .menu-content {
   display: none;
   width: 52%;
@@ -170,12 +170,12 @@ input[type="radio"] {
     margin-top: 40px;
     color: gray;
 }
-/* Show Eat when eat-tab is checked */
+
 #eat-tab:checked ~ .links2 ~ .eat-content {
   display: block;
 }
 
-/* Show Drink when drink-tab is checked */
+
 #drink-tab:checked ~ .links2 ~ .eat-content {
   display: none;
 }
